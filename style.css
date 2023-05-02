@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600;800&family=Rajdhani:wght@300&display=swap');
+
+:root{
+
+    --cor-primaria: rgb(247, 252, 0);
+    --cor-secundaria: #f6f6f6;
+    --cor-fundo: #171516;
+    --fonte-primaria:'Noto Sans JP';
+    --fonte-secundaria: 'Rajdhani';
+}
+
+
+body{
+
+    background-size: 100%;
+    background-color: var(--cor-fundo);
+    overflow-x: hidden;
+    height: 145vh;
+}
+
+.top{
+
+    padding: 3em 30px;
+    background: var(--cor-primaria);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Inicio_1{
+    margin-left: 3em;
+    
+}
+
+.nome{
+    display: flex;
+    position: relative;
+    bottom: -90px;
+    left: 1em;
+    color: var(--cor-secundaria);
+    font-size: 90px;
+    font-family: var(--fonte-primaria);
+}
+
+.sobrenome{
+
+    display: flex;
+    position: relative;
+    bottom: -8px;
+    left: 2.3em;
+    color: var(--cor-secundaria);
+    font-size: 40px;
+    font-family: var(--fonte-primaria);
+}
+
+#foto{
+
+    width: 13em;
+    height: 14em;
+    position: relative;
+    margin-left: 7em;
+    margin-right: 9em;
+    top: 10em;
+    border: var(--cor-secundaria) solid;
+    
+}
+
+
+.cargo{
+
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    left: 5em;
+    color: var(--cor-secundaria);
+    font-size: 19px;
+    font-family: var(--fonte-secundaria);
+}
+
+
+
+.idade{
+
+    display: flex;
+    position: relative;
+    bottom: 1em;
+    left: 6.4em;
+    color: var(--cor-secundaria);
+    font-size: 15px;
+    font-family: var(--fonte-primaria);
+}
+
+.cidade{
+
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    right: 9em;
+    top: 12em;
+}
+
+.dados{
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: var(--fonte-primaria);
+    bottom: 1em;
+    left: 9em;
+}
+
+.dados_Informacao{
+    color: var(--cor-secundaria);
+}
+
+.objetivo{
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    bottom: 2em;
+    top: -10em;
+    margin: 9em;
+}
+
+.Ensino{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 9em;
+    margin-right: 9em;
+    top: -19em;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+}
+
+.sobre{
+    display: flex;
+    margin: 8em;
+    flex-direction: column;
+    position: relative;
+    top: -27em;
+    left: 1em;
+    bottom: 7em;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+}
